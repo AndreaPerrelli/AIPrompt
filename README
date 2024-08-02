@@ -1,0 +1,48 @@
+# PromptAppGUI
+
+PromptAppGUI is a Java Swing application designed to generate prompts based on different task types. It allows users to input task instructions, drag and drop files for context, and generate a final prompt based on the provided information.
+
+## Features
+
+- Select task type (Feature, Fix, Refactor, Question, Blog, Others)
+- Enter task instructions
+- Drag and drop files or folders to provide code context
+- Generate and display a prompt based on the selected task type and provided files
+- Copy the generated prompt to the clipboard
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/PromptAppGUI.git
+
+2. Navigate to the project directory:
+   cd PromptAppGUI
+
+3. Compile the project:
+   javac PromptAppGUI.java
+
+4. Run the application:
+   java PromptAppGUI
+
+#Usage
+1. Select the task type from the dropdown menu.
+2. Enter the task instructions in the provided text area.
+3. Drag and drop files or folders into the application window to include them as context for the prompt.
+4. Click the "Generate Prompt" button to generate the prompt based on the input.
+5. View the generated prompt in the bottom panel.
+6. Click the "Copy" button to copy the generated prompt to the clipboard.
+
+## Code Structure
+
+   PromptAppGUI.java: Main class containing the GUI implementation and logic for generating prompts.
+   CodeContext.java: Class representing a code file with its name and content.
+
+## License
+This project is licensed under the APACHE-2.0 License. See the LICENSE file for details.
+
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open a issue.
+
+## Contact
+For any question or feedback, please contact snake09031999@gmail.com
